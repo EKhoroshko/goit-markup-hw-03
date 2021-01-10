@@ -1,0 +1,185 @@
+/* #212121  цвет заголовков текста
+   #757575 основной цвет текста
+   #FFFFFF белый
+   #2196F3 hover акцент
+   color: rgba(255, 255, 255, 0.6); футер номера
+   background: #F5F4FA; вторичный фон
+*/
+:root{
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-text-color:#2196F3;
+    --background-main-color: #FFFFFF;
+    --background-light-color:#F5F4FA;
+    --background-hero-color: #2F303A;
+}
+
+body{
+    background-color:var(--background-main-color);
+    color: var(--primary-text-color);
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.logo{
+    color: var(--accent-text-color);
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo span{
+    color:#000000; 
+}
+
+.logo .studio{
+    color: white;
+}
+
+.site-nav a {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {
+    color: var(--accent-text-color);
+}
+
+.contact a {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact a:hover,
+.contact a:focus {
+    color: var(--accent-text-color);
+}
+
+.section-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.hero{
+   background-color: var(--background-hero-color);
+}
+
+.hero-title{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-link{
+    color:#FFFFFF;
+    background-color: var(--accent-text-color);
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.warranty-plan{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.warranty-text{
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.team-name{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-proff{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* Footer*/
+
+.footer{
+    background-color: var(--background-hero-color);
+}
+
+.address a{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+a.connection{
+    color:white;
+}
+
+/* button */
+
+.button{
+    color: var(--title-text-color);
+    background-color: var(--background-light-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.button:hover,
+.button:focus{
+    color: white;
+    background-color: var(--accent-text-color);
+}
+
+.progect-text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.progect-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
